@@ -1,0 +1,130 @@
+<!doctype HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfólio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous|Roboto">
+</head>
+<body>
+	<nav>
+		<div id="logo"><a href="#"><img src="Imagens/logoRE.png" alt="Logo do Desenvolvedor"></a></div>
+		
+		<ul>
+			<li><a href="#" class="link">Home</a></li>
+			<li><a href="#posfoto" class="link">Perfil</a></li>
+			<li><a href="#article2" class="link">Projetos</a></li>
+			<li><a href="#article3" class="link">Contato</a></li>
+			
+		</ul>
+	</nav>
+
+	<div id="article0">
+		<div id="titulo">
+			<h1 id="titulo1">Rômulo Evangelista</h1>
+			<h1 id="subtitulo1">programador e designer</h1>
+		</div>
+	</div>
+
+	
+	<div id='article1'>
+
+		<!-- PERFIL !-->
+
+		<div id="posfoto">
+			<div id="img-perfil">
+				<img src="Imagens/romulo.png" id="foto_perfil" alt="Foto de Rômulo Evangelista">
+			</div>
+		</div>
+
+		<div id="perfil">
+			<h1>Perfil</h1>
+			
+		
+			<div id="texto-perfil">
+				<h2>Quem sou eu?</h2>
+				<p>Meu nome é Rômulo Evangelista Ferreira, tenho 19 anos e moro em Cascavel-CE, cidade metropolitana de Fortaleza. Completei meu ensino médio em uma escola profissionalizante e possuo o curso técnico em informática. Atualmente curso Sistemas e Mídias Digitais na Universidade Federal do Ceará. </p>
+
+				<p>O SMD é um curso bastante abrangente na área de tecnologia, lá aprendemos diversos conceitos tanto de design como na área da programação entre outras áreas. Já desnvolvi diversos projetos de design e programação no entanto pretendo aperfeiçoar e seguir na área de desenvolvimento Full Stack de aplicações web.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id='article2'>
+
+		<!-- PROJETOS !-->
+
+		<div id="projetos-design">
+			<h1 class="h1_projetos">Projetos - Design</h1>
+
+			<div class="flex-container">
+				<div id="design-projeto1" class="flex-item">
+					<div id="design-img-projeto1">
+						<img src="Imagens/design-serviço1.png" class="imagem" alt="Logo Casa de Bebida">
+					</div>
+				</div>
+
+				<div id="design-projeto2" class="flex-item">
+					<div id="design-img-projeto2" >
+						<img src="Imagens/design-serviço2.png" class="imagem" alt="Logo Fisioamar">
+					</div>
+				</div>
+
+				<div id="design-projeto3" class="flex-item">
+					<div id="design-img-projeto3" >
+						<img src="Imagens/design-serviço3.jpg" class="imagem" alt="Convite Odontologia">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="projetos-dev">
+			<h1 class="h1_projetos">Projetos - Desenvolvimento</h1>
+
+			<div class="flex-container">
+				<div id="dev-projeto1" class="flex-item">
+					<div id="dev-img-projeto1">
+						<a href="http://umdianasenzalasmd.blogspot.com/" target="_blank"><img src="Imagens/cartaz-um-dia-na-senzala.png" class="imagem-jogo" alt="Link para o blog do jogo"></a>
+					</div>
+				</div>
+
+				<div id="dev-projeto2" class="flex-item">
+					<div id="dev-img-projeto2" >
+						<a href="https://smtechprojeto.wordpress.com/" target="_blank"><img src="Imagens/cartaz-sorridente.jpeg" class="imagem-jogo" alt="Link para o blog do jogo"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id='article3'>
+
+		<!-- CONTATO !-->
+
+		<div id="contato">
+			<h1>Contato</h1>
+			<div class="box">
+				<form>
+					<div class="form-options">
+						<input type="text" id="nome" required="">
+						<label for="nome" class="labels">Nome</label>
+					</div>
+
+					<div class="form-options">
+						<input type="text" id="email" required="">
+						<label for="email" class="labels">Email</label>
+					</div>
+
+					<div class="form-options">
+						<textarea id="mensagem" required=""></textarea>
+						<label for="mensagem" class="labels">Mensagem:</label>
+					</div>
+
+					<input type="button" value="Enviar" id="button">
+				</form>
+			</div>
+		</div>
+	</div>	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
