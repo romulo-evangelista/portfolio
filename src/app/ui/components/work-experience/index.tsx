@@ -8,9 +8,30 @@ export const WorkExperience = () => {
 
       <WorkExperienceItem
         workExperienceInfo={{
+          companyName: "Thoughtworks",
+          role: "Senior Development Consultant",
+          period: "Agosto 2025 - Atual",
+          resume:
+            "Trabalhando com tecnologias de mensageria assíncrona como Pub/Sub - Gloogle Cloud Platform (GCP) pude desenvolver ferramentas de notificação de irregularidades em tempo real. Também desenvolvi documentações técnicas que pude compartilhar dentro e fora do meu time, gerando impacto positivo para além do meu próprio time.",
+          results: [
+            "Redução signifcativa no tempo de resolução de irregularidades.",
+            "Mapeamento de novas irregularidades que antes não tinham visibilidade.",
+            "Impacto dentro e fora do time para implementar ferramentas de controle de versão de banco de dados."
+          ],
+          stack: [
+            "AI",
+            "GCP",
+            "Java",
+            "Liquibase",
+          ],
+        }}
+      />
+
+      <WorkExperienceItem
+        workExperienceInfo={{
           companyName: "Maxxi",
           role: "Desenvolvedor Full Stack",
-          period: "Abril 2021 - Atual",
+          period: "Abril 2021 - Agosto 2025",
           resume:
             "Atuando como desenvolvedor Full Stack, pude participar do ciclo de vida de vários sistemas, tanto internos quanto para clientes em projetos BPO. Resolvendo bugs e implementando novas funcionalidades.",
           results: [

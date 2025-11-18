@@ -25,7 +25,7 @@ export const WorkExperienceItem = ({
         <h4 className="italic">{period}</h4>
       </div>
       <p>{resume}</p>
-      {results && (
+      {!!results?.length && (
         <>
           <p>Resultados:</p>
           <ul className="flex flex-col gap-2">
