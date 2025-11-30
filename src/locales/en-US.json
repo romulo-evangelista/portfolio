@@ -1,0 +1,71 @@
+{
+  "about": {
+    "part-one": "I am a Full Stack Developer with 7 years of experience delivering scalable, reliable, and high-impact solutions. I bring strong expertise in JavaScript/TypeScript, Node.js, React, React Native, AWS, and PostgreSQL, along with solid experience in distributed systems, event-driven architectures, and cloud services. Throughout my career, I've worked end-to-end across the development lifecycle, applying best engineering practices and a systems-focused mindset.",
+    "part-two": "I have hands-on experience with modern messaging and cloud technologies such as Kafka, AWS SQS, and Pub/Sub (GCP). My work includes building real-time notification systems and implementing performance optimizations that significantly improved application efficiency and reduced critical operation times. I also contribute technical documentation and engineering standards that strengthen the teams and products I work with.",
+    "part-three": "I am committed to continuous learning and collaborative problem-solving. My core strengths include clear communication, ownership, structured problem-solving, results-driven execution, and proactive collaboration across cross-functional teams. I focus on raising product quality, driving technical excellence, and fostering a transparent and efficient work environment."
+  },
+  "experiences": {
+    "title": "Work Experience",
+    "Thoughtworks": {
+      "role": "Senior Development Consultant",
+      "period": "August 2025 - Present",
+      "resume": "Working with asynchronous messaging technologies such as Pub/Sub on Google Cloud Platform (GCP), I developed real-time irregularity notification tools. I also produced technical documentation that I shared both within and beyond my team, generating a positive impact across the organization.",
+      "results": [
+        "Significant reduction in irregularity resolution time.",
+        "Identification and mapping of new irregularities that previously had no visibility.",
+        "Team-wide and cross-team impact by driving the adoption of database version control tools."
+      ],
+      "stack": [
+        "AI",
+        "GCP",
+        "Java",
+        "Liquibase"
+      ]
+    },
+    "Maxxi": {
+      "role": "Full Stack Developer",
+      "period": "April 2021 - August 2025",
+      "resume":"I improved the offline-first approach for a mobile application with conflicts resolver both in the mobile and backend side, then it minimized the user's first synchronization waiting time by 90%. Additionally, I worked with technologies like Kafka and AWS SQS in previous projects.",
+      "results": [
+        "Mobile app user's first synchronization waiting time minimized by 90%.",
+        "Development and publication of apps in the App Store and Play Store.",
+        "Implementation of monitoring systems in web and mobile applications.",
+        "Integrations between SAP systems and APIs in NestJS through messenger tools like Kafka and AWS SQS.",
+        "Web development of Blockchain and NFT integration system."
+      ],
+      "stack": [
+        "Node.js",
+        "NestJS",
+        "React",
+        "React Native",
+        "Typescript",
+        "AWS",
+        "Jest"
+      ]
+    },
+    "Lanlink": {
+      "role": "Full Stack Developer",
+      "period": "July 2019 - April 2021",
+      "resume":"Development and maintenance of the company's internal system. Application of new technologies such as real-time messaging. Creation and validation of new system functionalities. Working on projects with clients. From July 2019 to May 2020, I was an intern.",
+      "stack": [
+        "Node.js",
+        "NestJS",
+        "React",
+        "PHP",
+        "Microsoft SQL Server",
+        "MySQL"
+      ]
+    },
+    "IMMIFS": {
+      "role": "Development Intern",
+      "period": "December 2018 - June 2019",
+      "resume": "Development of new functionalities for the system developed by the company from a template. Application CI/CD with GitLab.",
+      "stack": [
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ]
+    }
+  }
+}

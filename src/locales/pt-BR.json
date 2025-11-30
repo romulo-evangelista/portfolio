@@ -1,0 +1,71 @@
+{
+  "about": {
+    "part-one": "Sou Desenvolvedor Full Stack com 7 anos de experiência criando soluções escaláveis, confiáveis e orientadas a resultados. Tenho forte domínio em JavaScript/TypeScript, Node.js, React, React Native, AWS e PostgreSQL, além de experiência sólida com arquiteturas distribuídas, mensageria e cloud. Ao longo da minha carreira, atuei em projetos que exigiram visão sistêmica, boas práticas e responsabilidade pelo ciclo completo de desenvolvimento.",
+    "part-two": "Minha trajetória inclui vivência com tecnologias de mensageria e cloud, como Kafka, AWS SQS e Pub/Sub (GCP), além do desenvolvimento de soluções de alto impacto, como sistemas de notificação de irregularidades em tempo real, e de otimizações que geraram ganhos significativos de performance em aplicações, reduzindo tempos críticos de operação. Também contribuo frequentemente com documentação técnica e boas práticas que elevam o nível das equipes com as quais trabalho.",
+    "part-three": "Mantenho um compromisso contínuo com evolução técnica e inteligência colaborativa. Minhas principais soft skills incluem comunicação clara, autonomia, capacidade de resolução estruturada de problemas, orientação a resultados e colaboração ativa com múltiplos times. Busco sempre elevar a qualidade do produto e criar um ambiente de trabalho mais eficiente e transparente."
+  },
+  "experiences": {
+    "title": "Experiência Profissional",
+    "Thoughtworks": {
+      "role": "Consultor de Desenvolvimento Sênior",
+      "period": "Agosto 2025 - Atual",
+      "resume": "Trabalhando com tecnologias de mensageria assíncrona como Pub/Sub - Gloogle Cloud Platform (GCP) pude desenvolver ferramentas de notificação de irregularidades em tempo real. Também desenvolvi documentações técnicas que pude compartilhar dentro e fora do meu time, gerando impacto positivo para além do meu próprio time.",
+      "results": [
+        "Redução signifcativa no tempo de resolução de irregularidades.",
+        "Mapeamento de novas irregularidades que antes não tinham visibilidade.",
+        "Impacto dentro e fora do time para implementar ferramentas de controle de versão de banco de dados."
+      ],
+      "stack": [
+        "AI",
+        "GCP",
+        "Java",
+        "Liquibase"
+      ]
+    },
+    "Maxxi": {
+      "role": "Desenvolvedor Full Stack",
+      "period": "Abril 2021 - Agosto 2025",
+      "resume":"Melhorei a abordagem offline-first de um aplicativo mobile, implementando um resolvedor de conflitos tanto no lado do app quanto no backend, o que reduziu em 90% o tempo de espera da primeira sincronização do usuário. Além disso, trabalhei com tecnologias como Kafka e AWS SQS em projetos anteriores.",
+      "results": [
+        "Redução de 90% no tempo de espera da primeira sincronização do usuário no app mobile.",
+        "Desenvolvimento e publicação de aplicativos na App Store e Play Store.",
+        "Implementação de sistemas de monitoramento em aplicações web e mobile.",
+        "Integrações entre sistemas SAP e APIs em NestJS por meio de ferramentas de mensageria como Kafka e AWS SQS.",
+        "Desenvolvimento web de um sistema de integração com Blockchain e NFT."
+      ],
+      "stack": [
+        "Node.js",
+        "NestJS",
+        "React",
+        "React Native",
+        "Typescript",
+        "AWS",
+        "Jest"
+      ]
+    },
+    "Lanlink": {
+      "role": "Desenvolvedor Full Stack",
+      "period": "Julho 2019 - Abril 2021",
+      "resume":"Desenvolvimento e manutenção do sistema interno da empresa. Aplicação de novas tecnologias, como mensageria em tempo real. Criação e validação de novas funcionalidades do sistema. Participação em projetos com clientes. De julho de 2019 a maio de 2020, fui estagiário.",
+      "stack": [
+        "Node.js",
+        "NestJS",
+        "React",
+        "PHP",
+        "Microsoft SQL Server",
+        "MySQL"
+      ]
+    },
+    "IMMIFS": {
+      "role": "Estagiário de Desenvolvimento",
+      "period": "Dezembro 2018 - Junho 2019",
+      "resume": "Desenvolvimento de novas funcionalidades para um sistema baseado em template. CI/CD dos ambientes com GitLab.",
+      "stack": [
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ]
+    }
+  }
+}

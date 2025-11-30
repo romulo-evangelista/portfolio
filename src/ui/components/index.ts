@@ -3,3 +3,7 @@ export * from "./card";
 export * from "./courses";
 export * from "./gradient-title";
 export * from "./work-experience";
+export * from "./resume";
+export * from "./skills";
+export * from "./home";
+export * from "./language-switcher"

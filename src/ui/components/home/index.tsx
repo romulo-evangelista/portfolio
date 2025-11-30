@@ -10,11 +10,13 @@ import {
   Courses,
   GradientTitle,
   WorkExperience,
-} from "./ui/components";
-import { Resume } from "./ui/components/resume";
-import { Skills } from "./ui/components/skills";
+  Resume,
+  Skills,
+} from "@/ui/components";
+import { Locale } from "@/types/locale";
+import LanguageSwitcher from "../language-switcher";
 
-export default function Home() {
+export default function Home({ dict }: { dict: Locale }) {
   const [position, setPosition] = useState<{ x: number; y: number }>({
     x: 0,
     y: 0,
@@ -48,6 +50,7 @@ export default function Home() {
             style="font-bold text-3xl"
           />
           <p className="text-lg">Full Stack Developer</p>
+          <LanguageSwitcher />
           <Skills />
         </div>
 
@@ -72,8 +75,8 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col flex-4/5 gap-16 lg:py-[4vw] font-[family-name:var(--font-geist-sans)]">
-        <Resume />
-        <WorkExperience />
+        <Resume dict={dict} />
+        <WorkExperience dict={dict}/>
         <AcademicFormation />
         <Courses />
 
