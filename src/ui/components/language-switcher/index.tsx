@@ -1,6 +1,7 @@
 import { useRouter, usePathname } from "next/navigation";
 import USSvgComponent from "../../../../public/assets/us";
 import BRSvgComponent from "../../../../public/assets/br";
+import { IconButton } from "../icon-button";
 
 export default function LanguageSwitcher() {
   const router = useRouter();
@@ -10,14 +11,13 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex gap-2 mt-10">
-      <button onClick={() => changeLanguage('en-US')}>
-        en-US
-        {/* <USSvgComponent /> */}
-      </button>
-      <button onClick={() => changeLanguage('pt-BR')}>
-        pt-BR
-        {/* <BRSvgComponent /> */}
-      </button>
+      <IconButton onClick={() => changeLanguage('en-US')}>
+        <USSvgComponent />
+      </IconButton>
+      |
+      <IconButton onClick={() => changeLanguage('pt-BR')}>
+        <BRSvgComponent />
+      </IconButton>
     </div>
   )
 } 

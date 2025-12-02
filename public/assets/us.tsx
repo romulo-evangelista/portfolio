@@ -2,8 +2,9 @@ import * as React from "react"
 const USSvgComponent = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={513}
-    height={342}
+    width={30}
+    height={18}
+    viewBox="0 0 513 342"
     fill="none"
     {...props}
   >

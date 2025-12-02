@@ -7,3 +7,4 @@ export * from "./resume";
 export * from "./skills";
 export * from "./home";
 export * from "./language-switcher"
+export * from "./icon-button"
