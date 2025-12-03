@@ -11,6 +11,9 @@
     "courses": "Cursos"
   },
   "experiences": {
+    "labels": {
+      "results": "Resultados:"
+    },
     "Thoughtworks": {
       "role": "Consultor de Desenvolvimento Sênior",
       "period": "Agosto 2025 - Atual",

@@ -1,6 +1,8 @@
+import { Locale } from "@/types/locale";
 import { Card } from "../../card";
 
 type WorkExperienceItemProps = {
+  dict: Locale
   workExperienceInfo: {
     companyName: string;
     role: string;
@@ -12,6 +14,7 @@ type WorkExperienceItemProps = {
 };
 
 export const WorkExperienceItem = ({
+  dict,
   workExperienceInfo,
 }: WorkExperienceItemProps) => {
   const { companyName, role, period, resume, results, stack } =
@@ -27,7 +30,7 @@ export const WorkExperienceItem = ({
       <p>{resume}</p>
       {!!results?.length && (
         <>
-          <p>Resultados:</p>
+          <p>{dict.experiences.labels.results}</p>
           <ul className="flex flex-col gap-2">
             {results.map((result, key) => (
               <li key={key}>• {result}</li>

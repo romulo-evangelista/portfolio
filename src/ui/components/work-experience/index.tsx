@@ -8,6 +8,7 @@ export const WorkExperience = ({ dict }: { dict: Locale }) => {
       <GradientTitle title={dict.titles["work-experience"]} />
 
       <WorkExperienceItem
+        dict={dict}
         workExperienceInfo={{
           companyName: "Thoughtworks",
           role: dict.experiences.Thoughtworks.role,
@@ -19,6 +20,7 @@ export const WorkExperience = ({ dict }: { dict: Locale }) => {
       />
 
       <WorkExperienceItem
+        dict={dict}
         workExperienceInfo={{
           companyName: "Maxxi",
           role: dict.experiences.Maxxi.role,
@@ -30,6 +32,7 @@ export const WorkExperience = ({ dict }: { dict: Locale }) => {
       />
 
       <WorkExperienceItem
+        dict={dict}
         workExperienceInfo={{
           companyName: "Lanlink",
           role: dict.experiences.Lanlink.role,
@@ -40,6 +43,7 @@ export const WorkExperience = ({ dict }: { dict: Locale }) => {
       />
 
       <WorkExperienceItem
+        dict={dict}
         workExperienceInfo={{
           companyName: "IMMI FS",
           role: dict.experiences.IMMIFS.role,

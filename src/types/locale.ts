@@ -11,6 +11,9 @@ export interface Locale {
     courses: string
   },
   experiences: {
+    labels: {
+      results: string;
+    },
     Thoughtworks: {
       role: string;
       period: string;
