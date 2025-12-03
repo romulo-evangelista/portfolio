@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description: "Rômulo Evangelista's Website",
 };
 
+export async function generateStaticParams() {
+  const languages = ['en-US', 'pt-BR'];
+  return languages.map((lang) => ({ lang }));
+}
+
 export default async function RootLayout({
   children,
   params,
