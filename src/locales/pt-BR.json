@@ -54,7 +54,7 @@
     "Lanlink": {
       "role": "Desenvolvedor Full Stack",
       "period": "Julho 2019 - Abril 2021",
-      "resume":"Desenvolvimento e manutenção do sistema interno da empresa. Aplicação de novas tecnologias, como mensageria em tempo real. Criação e validação de novas funcionalidades do sistema. Participação em projetos com clientes. De julho de 2019 a maio de 2020, fui estagiário.",
+      "resume":"Desenvolvimento e manutenção do sistema interno da empresa. Implementação de novas tecnologias, como mensageria em tempo real. Criação e validação de novas funcionalidades do sistema. Participação em projetos com clientes. De julho de 2019 a maio de 2020, fui estagiário.",
       "stack": [
         "Node.js",
         "NestJS",

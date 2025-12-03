@@ -54,7 +54,7 @@
     "Lanlink": {
       "role": "Full Stack Developer",
       "period": "July 2019 - April 2021",
-      "resume":"Development and maintenance of the company's internal system. Application of new technologies such as real-time messaging. Creation and validation of new system functionalities. Working on projects with clients. From July 2019 to May 2020, I was an intern.",
+      "resume":"Development and maintenance of the company's internal system. Implementation of new technologies such as real-time messaging. Creation and validation of new system functionalities. Working on projects with clients. From July 2019 to May 2020, I was an intern.",
       "stack": [
         "Node.js",
         "NestJS",
@@ -67,7 +67,7 @@
     "IMMIFS": {
       "role": "Development Intern",
       "period": "December 2018 - June 2019",
-      "resume": "Development of new functionalities for the system developed by the company from a template. Application CI/CD with GitLab.",
+      "resume": "Development of new features for the system the company created from a template. Implementation of CI/CD using GitLab.",
       "stack": [
         "JavaScript",
         "PHP",
