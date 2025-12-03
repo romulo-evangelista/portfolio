@@ -6,12 +6,12 @@ import {
 } from "@geist-ui/icons";
 import { useEffect, useState } from "react";
 import {
-  AcademicFormation,
   Courses,
   GradientTitle,
   WorkExperience,
   Resume,
   Skills,
+  Education,
 } from "@/ui/components";
 import { Locale } from "@/types/locale";
 import LanguageSwitcher from "../language-switcher";
@@ -77,8 +77,8 @@ export default function Home({ dict }: { dict: Locale }) {
       <main className="flex flex-col flex-4/5 gap-16 lg:py-[4vw] font-[family-name:var(--font-geist-sans)]">
         <Resume dict={dict} />
         <WorkExperience dict={dict}/>
-        <AcademicFormation />
-        <Courses />
+        <Education dict={dict} />
+        <Courses dict={dict} />
 
         <footer>
           <GradientTitle

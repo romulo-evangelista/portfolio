@@ -4,8 +4,13 @@ export interface Locale {
       "part-two": string;
       "part-three": string;
   };
+  titles: {
+    about: string,
+    "work-experience": string,
+    education: string,
+    courses: string
+  },
   experiences: {
-    title: string;
     Thoughtworks: {
       role: string;
       period: string;
@@ -32,5 +37,14 @@ export interface Locale {
       resume: string;
       stack: string[];
     };
+  },
+  education: {
+    "smd-period": string
+  },
+  courses: {
+    flutter: string,
+    ml: string,
+    scrum: string,
+    "ios-foundation": string
   };
 }

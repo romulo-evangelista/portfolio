@@ -5,7 +5,7 @@ import { WorkExperienceItem } from "./components";
 export const WorkExperience = ({ dict }: { dict: Locale }) => {
   return (
     <section className="flex flex-col gap-4">
-      <GradientTitle title={dict.experiences.title} />
+      <GradientTitle title={dict.titles["work-experience"]} />
 
       <WorkExperienceItem
         workExperienceInfo={{

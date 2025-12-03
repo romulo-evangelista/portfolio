@@ -1,4 +1,4 @@
-export * from "./academic-formation";
+export * from "./education";
 export * from "./card";
 export * from "./courses";
 export * from "./gradient-title";

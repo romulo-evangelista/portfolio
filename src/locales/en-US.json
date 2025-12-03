@@ -4,8 +4,13 @@
     "part-two": "I have hands-on experience with modern messaging and cloud technologies such as Kafka, AWS SQS, and Pub/Sub (GCP). My work includes building real-time notification systems and implementing performance optimizations that significantly improved application efficiency and reduced critical operation times. I also contribute technical documentation and engineering standards that strengthen the teams and products I work with.",
     "part-three": "I am committed to continuous learning and collaborative problem-solving. My core strengths include clear communication, ownership, structured problem-solving, results-driven execution, and proactive collaboration across cross-functional teams. I focus on raising product quality, driving technical excellence, and fostering a transparent and efficient work environment."
   },
+  "titles": {
+    "about": "About",
+    "work-experience": "Work Experience",
+    "education": "Education",
+    "courses": "Courses"
+  },
   "experiences": {
-    "title": "Work Experience",
     "Thoughtworks": {
       "role": "Senior Development Consultant",
       "period": "August 2025 - Present",
@@ -67,5 +72,14 @@
         "MySQL"
       ]
     }
+  },
+  "education": {
+    "smd-period": "January 2017 - December 2022"
+  },
+  "courses": {
+    "flutter": "February 2021",
+    "ml": "November 2020",
+    "scrum": "June 2020",
+    "ios-foundation": "October 2019"
   }
 }

@@ -4,8 +4,13 @@
     "part-two": "Minha trajetória inclui vivência com tecnologias de mensageria e cloud, como Kafka, AWS SQS e Pub/Sub (GCP), além do desenvolvimento de soluções de alto impacto, como sistemas de notificação de irregularidades em tempo real, e de otimizações que geraram ganhos significativos de performance em aplicações, reduzindo tempos críticos de operação. Também contribuo frequentemente com documentação técnica e boas práticas que elevam o nível das equipes com as quais trabalho.",
     "part-three": "Mantenho um compromisso contínuo com evolução técnica e inteligência colaborativa. Minhas principais soft skills incluem comunicação clara, autonomia, capacidade de resolução estruturada de problemas, orientação a resultados e colaboração ativa com múltiplos times. Busco sempre elevar a qualidade do produto e criar um ambiente de trabalho mais eficiente e transparente."
   },
+  "titles": {
+    "about": "Sobre",
+    "work-experience": "Experiência Profissional",
+    "education": "Formação Acadêmica",
+    "courses": "Cursos"
+  },
   "experiences": {
-    "title": "Experiência Profissional",
     "Thoughtworks": {
       "role": "Consultor de Desenvolvimento Sênior",
       "period": "Agosto 2025 - Atual",
@@ -67,5 +72,14 @@
         "MySQL"
       ]
     }
+  },
+  "education": {
+    "smd-period": "Janeiro 2017 - Dezembro 2022"
+  },
+  "courses": {
+    "flutter": "Fevereiro 2021",
+    "ml": "Novembro 2020",
+    "scrum": "Junho 2020",
+    "ios-foundation": "Outubro 2019"
   }
 }
